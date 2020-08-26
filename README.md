@@ -1,61 +1,77 @@
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
+# Fitness Tracker
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
+## Description
 
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+Dropped internet service is an everyday experience. Here, we design an app where functionality is A+ with or without a connection. Our budget tracker utilizes tech such as Node.js, Express.js, Mongoose and Compression to access the local browers data cache. Our user can add expenses and deposits to their budget on or offline. If offline, those totals will be still populate the total when back and in good service.
+<br><br>
+View the Gitbhub repository: <br>
+https://github.com/GCaplan777/onlineofflinebudgettracker
+<br>
+View the deployed app on Heroku:<br>
+https://offline-on-budget.herokuapp.com/
 
-Offline Functionality:
+## Table of Contents
 
-  * Enter deposits offline
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [License](#License)
+- [Contributing](#Contributing)
+- [Tests](#Tests)
+- [Questions](#Questions)
+- [Demos](#Demos)
 
-  * Enter expenses offline
+## Installation
 
-When brought back online:
+With access to Node.js, you can open your terminal and run: "$npm init" to create your package-lock.json. If already there from a fork of my repo, simply run "$npm install".
+To use Eat-Da-Burger web application application from your local environment, you must accomplish the following steps below:
 
-  * Offline entries should be added to tracker.
+**Step 1 - Clone my repo using the command line below.**
 
-## User Story
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
+```
+git clone https://github.com/GCaplan777/onlineofflinebudgettracker.git
+```
 
-## Business Context
+**Step 2 - Change directory to the cloned repo folder.**
 
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+```
+cd onlineofflinebudgettracker
+```
 
+**Step 3 - Install all required NPM packages.**
 
-## Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
+```
+npm install
+```
 
-- - -
+**Step 4 - Start the application server using the command line below**
 
-## Commit Early and Often
+```
+node server.js
+```
 
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+## Usage
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
+Node.js, Express JS, MongoDb, Mongoose, Heroku, Compression
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+## License
 
-* Follow these guidelines for committing:
+License Copyright: Unknown. <br>https://opensource.org/licenses/MIT
 
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
+## Contributing
 
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
+https://github.com/jyk524
 
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
+## Tests
 
-  * Test your application before you commit to ensure functionality at every step in the development process
+All test requirements met.
 
-* We would like you to have well over 200 commits by graduation, so commit early and often!
+## Questions
 
-## Submission on BCS
+https://github.com/gcaplan777
 
-* You are required to submit the following:
+gabriel.caplan@gmail.com
+<br><br>
 
-  * the URL to the deployed application
+## DEMOS
 
-  * the URL to the Github repository
-
+Youtube link! TK

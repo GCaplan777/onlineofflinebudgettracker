@@ -20,7 +20,7 @@ app.use(express.static("public"));
 //   useFindAndModify: false
 // });
 
-var MONGODB_URI = process.env.MONGODB_URL || "mongodb://localhost/budget";
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/budget";
 const options = {
   useNewUrlParser: true,
   useCreateIndex: true,

@@ -1,4 +1,4 @@
-# Fitness Tracker
+# Online Offline Budget Tracker
 
 ## Description
 
